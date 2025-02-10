@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Operations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .result {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Math Operations with x = 10 and y = 5</h2>
+    <button onclick="performOperations()">Calculate</button>
+    <div class="result" id="results"></div>
+
+    <script>
+        function performOperations() {
+            let x = 10;
+            let y = 5;
+            let sum = x + y;
+            let product = x * y;
+            let remainder = x % y;
+            
+            document.getElementById("results").innerHTML = `
+                <p><strong>Addition:</strong> ${sum}</p>
+                <p><strong>Multiplication:</strong> ${product}</p>
+                <p><strong>Modulus:</strong> ${remainder}</p>
+            `;
+        }
+    </script>
+</body>
+</html>
