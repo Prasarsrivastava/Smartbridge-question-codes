@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Paragraphs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        p:nth-child(1) {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            text-align: left;
+        }
+        p:nth-child(2) {
+            font-family: 'Verdana', sans-serif;
+            line-height: 1.6;
+            text-align: center;
+        }
+        p:nth-child(3) {
+            font-family: 'Courier New', monospace;
+            line-height: 2;
+            text-align: right;
+        }
+        p:nth-child(4) {
+            font-family: 'Tahoma', sans-serif;
+            line-height: 1.5;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <p>This is the first paragraph with a serif font, left-aligned.</p>
+    <p>This is the second paragraph with a sans-serif font, center-aligned.</p>
+    <p>This is the third paragraph with a monospace font, right-aligned.</p>
+    <p>This is the fourth paragraph with a sans-serif font, justified.</p>
+</body>
+</html>
