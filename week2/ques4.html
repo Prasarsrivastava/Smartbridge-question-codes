@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Store Numbers in Array</title>
+</head>
+<body>
+  <h2>Numbers from 1 to 5:</h2>
+  <div id="output"></div>
+
+  <script>
+    let numbers = [];
+
+    for (let i = 1; i <= 5; i++) {
+      numbers.push(i);
+    }
+
+    document.getElementById("output").textContent = numbers.join(", ");
+  </script>
+</body>
+</html>
